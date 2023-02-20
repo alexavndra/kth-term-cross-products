@@ -2,18 +2,17 @@
 
 This is the README.md for the CrossProduct program; done for a coding assignment that was unfinished.
 
-## Intention of program, main methods/variables, and classes
+## Intention of program, classes/main methods and variables, and classes
 
 As mentioned, the CrossProduct program was an unfinished coding assignment. As stated throughout the code, the intention of the program is to return (print out) the kth term of the CrossProduct array, which is sorted by smallest to greatest cross product. 
 
-### Main methods and variables
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+All the code can be found under App.java, located in the src folder. The compiled output files will be generated in the `bin` folder by default.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Classes, main methods and variables
+- `CrossProductElements`: object class that creates individual cross products from a given array
+- `CrossProductSort`: Interface class that compares the cross products of two CrossProductElements
+- `cpArr`: ArrayList made up of the CrossProductElements objects
+- `Collections.sort(cpArr, new CrossProductSort()`: Collections.sort method that sorts `cpArr` by the cross products (smallest to biggest cross products)
+- `k`: int that determines what element to return from `cpArr`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> 2023 Alexandra Hernandez
