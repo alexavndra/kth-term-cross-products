@@ -2,7 +2,7 @@
 
 This is the README.md for the CrossProduct program; done for a coding assignment that was unfinished.
 
-## Intention of program, classes/main methods and variables, and classes
+## Intention of program, classes, main methods, and variables
 
 As mentioned, the CrossProduct program was an unfinished coding assignment. As stated throughout the code, the intention of the program is to return (print out) the kth term of the CrossProduct array, which is sorted by smallest to greatest cross product. 
 
